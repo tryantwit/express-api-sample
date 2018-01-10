@@ -1,0 +1,13 @@
+# logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directory
+node_modules/
+
+# Dependency lock
+package-lock.json
+
+# .env
+.env

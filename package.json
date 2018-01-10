@@ -1,0 +1,43 @@
+{
+  "name": "express-yourself",
+  "version": "0.1.0",
+  "description": "Sample express api application.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon bin/www",
+    "test": "NODE_ENV=test MONGO_HOST=mongodb://localhost/express-yourself-test ./node_modules/.bin/mocha --ui bdd --reporter spec --colors tests --recursive --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tryantwit/express-yourself"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "api"
+  ],
+  "author": "Tim Ryan <tryant90@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tryantwit/express-yourself/issues"
+  },
+  "homepage": "https://github.com/tryantwit/express-yourself#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "helmet": "^3.9.0",
+    "http-status": "^1.0.1",
+    "mongoose": "^5.0.0-rc2",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "debug": "^3.1.0",
+    "mocha": "^4.1.0",
+    "nodemon": "^1.14.6",
+    "supertest": "^3.0.0"
+  }
+}
