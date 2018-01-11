@@ -1,5 +1,5 @@
 {
-  "name": "express-yourself",
+  "name": "express-api-sample",
   "version": "0.1.0",
   "description": "Sample express api application.",
   "main": "server.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tryantwit/express-yourself"
+    "url": "git+https://github.com/tryantwit/express-api-sample"
   },
   "keywords": [
     "express",
@@ -19,9 +19,9 @@
   "author": "Tim Ryan <tryant90@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tryantwit/express-yourself/issues"
+    "url": "https://github.com/tryantwit/express-api-sample/issues"
   },
-  "homepage": "https://github.com/tryantwit/express-yourself#readme",
+  "homepage": "https://github.com/tryantwit/express-api-sample#readme",
   "dependencies": {
     "bluebird": "^3.5.1",
     "body-parser": "^1.18.2",
